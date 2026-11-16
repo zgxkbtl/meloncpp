@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.wrangler/
+.vercel/
+wrangler.local.jsonc
+.env
+.env.*
+!.env.example
+.secrets/
+.cache/
+public/toolchain/*
+!public/toolchain/.gitkeep
+*.log
+.DS_Store
+
+# Credentials approval screenshots may contain account metadata.
+docs/screenshots/token-*.png
+docs/screenshots/vercel-*.png

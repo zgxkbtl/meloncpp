@@ -1,0 +1,11 @@
+.git/
+.env
+.env.*
+.secrets/
+.cache/
+.wrangler/
+wrangler.local.jsonc
+node_modules/
+dist/
+docs/screenshots/token-*.png
+docs/screenshots/vercel-*.png

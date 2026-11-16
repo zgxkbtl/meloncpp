@@ -1,0 +1,29 @@
+{
+  "version": "22.1.8-v1",
+  "upstream": "https://github.com/cppstudio-io/wasm-clang-runtime",
+  "source_commit": "df1180d80184733c6a01599f76b92b4001d20f87",
+  "assets": [
+    {
+      "name": "clang22-noeh",
+      "url": "https://github.com/cppstudio-io/wasm-clang-runtime/releases/download/v0.1.0/clang22-noeh",
+      "bytes": 36100574,
+      "sha256": "e01346e33b31a3b3359a317450502bd4feb78cd6ca7fed08aca8601f9ff8834d"
+    },
+    {
+      "name": "lld22-noeh",
+      "url": "https://github.com/cppstudio-io/wasm-clang-runtime/releases/download/v0.1.0/lld22-noeh",
+      "bytes": 19183252,
+      "sha256": "63c397c582e193aacd96fbdeb04b1bd32f47ae505f6dc4a569ed08a80ddfeff7"
+    },
+    {
+      "name": "sysroot22.tar",
+      "url": "https://github.com/cppstudio-io/wasm-clang-runtime/releases/download/v0.1.0/sysroot22.tar",
+      "bytes": 39876608,
+      "sha256": "d991c621cdf9b4640c2cd4aa21abb08491c2ae6ef9917cac5c6065553604bcec"
+    }
+  ],
+  "iostream_patch": {
+    "url": "https://raw.githubusercontent.com/llvm/llvm-project/llvmorg-22.1.8/libcxx/include/iostream",
+    "sha256": "197093ba0b5cfd0104fa17f29520f4df160c33e1fa46495f4b00945f937e7922"
+  }
+}
