@@ -3,6 +3,7 @@ dist/
 .wrangler/
 .vercel/
 wrangler.local.jsonc
+docs/DEPLOYMENT.local.md
 .env
 .env.*
 !.env.example

@@ -28,6 +28,8 @@ npm run preview
 
 仓库中的 `wrangler.jsonc` 是不含个人账户或域名的通用模板。个人配置可复制到 `wrangler.local.jsonc`，此文件已忽略提交，部署脚本会优先读取它。
 
+本机的个人部署地址与维护记录可写入 `docs/DEPLOYMENT.local.md`，此文件已从 Git 和 Vercel 上传范围中排除。
+
 将部署凭据放入被忽略的 `.env`，参考 `.env.example`，并设置文件权限为 0600。不要使用 `VITE_*` 保存凭据，也不要将它们放到 skills、`public/` 或 `dist/`。
 
 ```sh

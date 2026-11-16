@@ -5,6 +5,7 @@
 .cache/
 .wrangler/
 wrangler.local.jsonc
+docs/DEPLOYMENT.local.md
 node_modules/
 dist/
 docs/screenshots/token-*.png
